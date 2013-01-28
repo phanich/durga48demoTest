@@ -1,0 +1,10 @@
+<apex:page controller="sampleapgeUrl" showHeader="false">
+  <apex:form >
+   <apex:inputText value="{!datetimevalue}"/><br />
+   
+   <apex:commandButton value="Save" action="{!save}"/>
+   
+  
+  </apex:form>
+
+</apex:page>

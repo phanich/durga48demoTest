@@ -1,0 +1,10 @@
+<apex:page controller="clearDataBaseCon" sidebar="false" showHeader="false">
+  
+  <apex:form >
+    
+  
+  <apex:commandButton value="Clear" action="{!clear}"/>
+  </apex:form>
+  
+  
+</apex:page>
